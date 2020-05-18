@@ -1,0 +1,157 @@
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#e1d8e4;
+}
+#bas{
+   border-style: groove;
+   border: width 5px;;
+   border-color:rebeccapurple;
+   border-radius: 15px;
+   border-start-end-radius:none;
+   margin-right: 35%;
+   font-family: 'Times New Roman', Times, serif;
+   color: rgb(147, 5, 150);
+}
+li{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+    color: #071335;
+}
+button{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 500;
+   font-size: 40px;
+   color:rgba(7,8,59,0.5);
+}
+a{
+   font-weight: 500;
+   font-size: 40px;
+   color: rgba(7, 8, 59, 0.5);
+}
+header{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding: 30px 10%;
+    background-attachment: fixed;
+    list-style-type:none; 
+}
+
+.logo{
+   margin-right:auto ;
+}
+.nav{
+   order: 3;
+}
+.nav_links li{     
+    display: inline;
+    padding: 0px 20px;
+}
+.nav_links li a {
+   position: sticky;
+   position: -webkit-sticky;
+   top:0;
+   transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover  {
+     color:#172529;
+}
+.cta{
+    order: 2;
+}
+
+button{
+   padding: 9px 25px;
+   background-color: rgba(172, 12, 65, 0.137);
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+   background-attachment: fixed;
+}
+button:hover{
+   background-color: rgba(19, 25, 151, 0.8); 
+}
+div.navs{
+    border-style: ridge;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-bottom-style: solid;
+    border-radius: 13px;
+    border-bottom-width: 2px;
+
+}
+ul{
+   list-style-position: fixed;
+   top: 0;
+   width: 100%;
+}
+
+ .ben{
+   position: relative;
+   margin: 3% 40%;
+   color: rgb(16, 90, 155);
+   font-size: 700%; 
+   left: -750px;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+ }
+ 
+ .tanıma{
+   position: relative;
+   color: rgb(3, 13, 19);
+   font-size: 150%; 
+   left: 850px;
+   top: 200px;
+   width: 100%;
+   height: 100%;
+ }
+ .gelişim{
+   position: relative;
+   color: rgb(21, 185, 84);
+   font-size: 150%; 
+   left: 300px;
+   top: 180px;
+   width: 100%;
+   height: 100%;
+ }
+
+ #form{
+   margin-left: 35%;
+
+ }
+
+ .column {
+   float: inline-end;
+   widows: 50px;
+ }
+ 
+ .row:after {
+   content: normal;
+   display: table;
+   clear: both;
+ }
+ .motivasyon{margin-left: 5%;
+   margin-right: 5%;
+   margin-top: 3%;
+   margin-bottom: 5%;
+
+ }
+ .gelisme{margin-left: 10%;
+   margin-right: 5%;
+   margin-top: 3%;
+   margin-bottom: 5%;
+
+ }
+ .arkaplan{
+   display: block;
+        margin: auto;
+        border: 2px solid black;
+ }
+
